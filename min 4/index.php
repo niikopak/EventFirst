@@ -7,6 +7,7 @@
 </head>
 <body>
     <?php
+        //Функция по нахождению мин значения в массиве
         function getMinValue(array $numbers) : int {
             $min = $numbers[0];
             for ($i = 1; $i < count($numbers);  $i++) 

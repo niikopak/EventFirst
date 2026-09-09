@@ -7,6 +7,7 @@
 </head>
 <body>
     <?php
+        //Функция суммы
         function getSum(array $numbers) : int {
             $sum = 0;
             for ($i=0; $i < count($numbers); $i++) { 
@@ -14,6 +15,8 @@
             }
             return $sum;
         }
+
+        //Функция сред ариф
         function getAverage(array $numbers) : int {
             return getSum($numbers) / count($numbers);
         }

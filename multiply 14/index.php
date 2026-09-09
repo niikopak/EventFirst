@@ -7,6 +7,7 @@
 </head>
 <body>
     <?php
+        //Функция, которая умножает все значения на заданное число
         function multiplyArray(array &$numbers, int $multi){
             for ($i=0; $i < count($numbers); $i++) { 
                 $numbers[$i] = $numbers[$i] * $multi;

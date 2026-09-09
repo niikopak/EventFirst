@@ -7,6 +7,7 @@
 </head>
 <body>
     <?php
+        //Функция по нахождению макс значения в массиве
         function getMaxValue(array $numbers) : int {
             $max = $numbers[0];
             for ($i = 1; $i < count($numbers);  $i++) 

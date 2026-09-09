@@ -7,6 +7,7 @@
 </head>
 <body>
     <?php
+        //Функция, которая возвращает только числа больше заданного значения
         function filterGreaterThan(array $numbers, int $limit) : array {
             $result = [];
             for ($i=0; $i < count($numbers); $i++) { 

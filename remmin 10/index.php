@@ -7,6 +7,7 @@
 </head>
 <body>
     <?php
+        //Функция, которая удаляет негативные значения из массива
         function removeNegative(array &$numbers){
             for ($i=0; $i < count($numbers); $i++) { 
                 if ($numbers[$i]<0) {

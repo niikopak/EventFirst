@@ -7,6 +7,7 @@
 </head>
 <body>
     <?php
+        //Функция по нахождению индекса в массиве по заданному числу
         function findIndex(array $numbers, int $number) : int {
             $index = 0;
             for ($i=0; $i < count($numbers); $i++) { 

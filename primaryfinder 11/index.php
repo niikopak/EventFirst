@@ -7,6 +7,7 @@
 </head>
 <body>
     <?php
+        //Функция по нахождению универсальных значений (без повторений)
         function finderPrimaryNum(array $numbers) : array {
             $primaryNums = [];
             for ($i=0; $i < count($numbers); $i++) {

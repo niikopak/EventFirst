@@ -7,6 +7,7 @@
 </head>
 <body>
     <?php
+        //Функция по поиску положительных значений
         function countPositive(array $numbers) : int {
             $positive = 0;
             for ($i=0; $i < count($numbers); $i++) { 
